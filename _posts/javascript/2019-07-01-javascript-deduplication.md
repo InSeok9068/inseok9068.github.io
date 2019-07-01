@@ -7,7 +7,7 @@ toc: true
 ---
 
 ``` javascript
-var data = [2,3,4,5,5,4];
+ var data = [2,3,4,5,5,4];
 
 var filter = function(value, index){
     return this.indexOf(value) == index
