@@ -106,8 +106,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "이인석"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "IN DDI"
+  avatar           : "/assets/images/siba.gif" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "궁금한 개발자"
   location         : "Seoul,Korea"
   email            : "dlstjr9068@gmail.com"
