@@ -26,3 +26,6 @@ toc :
 <!-- 날짜 -->
 last_modified_at: 2019-07-01T13:00:00+09:00
 ---
+
+<!-- 동영상 첨부 -->
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

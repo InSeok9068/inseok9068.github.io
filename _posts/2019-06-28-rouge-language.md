@@ -2,7 +2,6 @@
 title: "Rouge가 지원하는 언어 목록"
 categories: 
   - rouge
-last_modified_at: 2019-06-28T13:00:00+09:00
 ---
 ### 지원 언어 목록
 
