@@ -1,14 +1,14 @@
 # inseok9068.github.io
 
-### 로컬 서버 실행
+## 로컬 서버 실행
 한국어 깨지는 현상 
 
 ```shell
 chcp 65001 
 jekyll serve
 ```
-
-### Jekyll 설정
+---
+## Jekyll 설정
 ```yaml
 ---
 # 타이틀
@@ -50,8 +50,8 @@ sidebar:
     nav: sidebar-sample
 ---
 ```
-
-### 동영상 첨부
+---
+## 동영상 첨부
 
 ```html
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
