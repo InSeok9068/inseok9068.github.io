@@ -1,7 +1,8 @@
 ---
-title: "Javasciprt 변수 선언"
+title: "Javasciprt ?? ??"
 categories: 
   - javasciprt
+published : false
 ---
 
 ``` javascript
