@@ -25,6 +25,19 @@ toc :
 
 <!-- 날짜 -->
 last_modified_at: 2019-07-01T13:00:00+09:00
+
+<!-- 왼쪽 사이드바 프로필 삭제 -->
+author_profile: false
+
+<!-- 왼쪽 사이드바 생성 -->
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+    nav: sidebar-sample
 ---
 
 <!-- 동영상 첨부 -->
