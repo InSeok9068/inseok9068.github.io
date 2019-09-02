@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "IN DDI"
   avatar           : "/assets/images/title/siba.gif" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "궁금한 개발자"
+  bio              : #"궁금한 개발자"
   location         : "Seoul,Korea"
   email            : "dlstjr9068@gmail.com"
   links:
