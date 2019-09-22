@@ -14,7 +14,7 @@ Front End 기술에 관심이 많은 개발자입니다.
 ### Skill
 
 #### - Language
-![Java](/assets/images/about/java.jpg){: .about-image}
+![Java](/assets/images/about/java.png){: .about-image}
 ![Javascript](/assets/images/about/javascript.jpg){: .about-image}
 ![Jquery](/assets/images/about/jquery.png){: .about-image}
 ![Python](/assets/images/about/python.png){: .about-image}
