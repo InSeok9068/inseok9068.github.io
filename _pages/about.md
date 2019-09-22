@@ -5,11 +5,11 @@ toc: true
 ---
 
 ## 시빠 개발자
-Front End 기술에 관심이 많은 개발자입니다.
+Front End 기술과 신기술에 관심이 많은 개발자입니다.
 
 ### Project History
-- 호텔 API
-- 시스템 구축
+- 호텔 솔루션 개발
+- API 시스템 개발
 
 ### Skill
 
