@@ -1,7 +1,7 @@
 ---
 title: "Rouge가 지원하는 언어 목록"
 categories: 
-  - rouge
+  - others
 ---
 ### 지원 언어 목록
 
