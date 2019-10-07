@@ -8,7 +8,7 @@ Javascript에는 List 요소가 검색으로는 Includes, indexOf 두가지가 �
 
 ### 변수 선언
 
-``` javasciprt
+``` javascript
 const list = ['1','2','3']
 ```
 
