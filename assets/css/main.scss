@@ -17,6 +17,11 @@
 	padding-right: 0px !important;
 } 
 
+// content font-size 조정 default(1.0em)
+.page__content p {
+	font-size: 0.8em;
+}
+
 .about-image {
 	width  : 120px;
 	height : 100px !important;
