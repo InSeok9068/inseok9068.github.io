@@ -13,7 +13,16 @@ Front End 기술과 신기술에 관심이 많은 개발자입니다.
 
 ### Skill
 
-#### - Language
+|구분         | Skill 명                                   | 
+|:------------|:------------------------------------------|
+|**Language** |Java, Javascript, Python, Jsp, Html5, Css  |
+|**Framework**|Spring Web, Spring Boot, Mybatis           |
+|**DBMS**     |Oracle, PostgreSQL                         |
+|**System**   |Window, Linux                              |
+|**Tool**     |Eclipse, Visual Studio Code, Benthic, Toad |
+|**Other**    |Svn, DevEye, Git, Redmine                  |
+
+<!-- #### - Language
 ![Java](/assets/images/about/java.png){: .about-image}
 ![Javascript](/assets/images/about/javascript.jpg){: .about-image}
 ![Jquery](/assets/images/about/jquery.png){: .about-image}
@@ -44,4 +53,4 @@ Front End 기술과 신기술에 관심이 많은 개발자입니다.
 #### - Other
 ![Svn](/assets/images/about/svn.jpg){: .about-image}
 ![Git](/assets/images/about/git.png){: .about-image}
-![Redmine](/assets/images/about/redmine.jpg){: .about-image}
+![Redmine](/assets/images/about/redmine.jpg){: .about-image} -->
