@@ -13,14 +13,14 @@ Front End 기술과 신기술에 관심이 많은 개발자입니다.
 
 ### Skill
 
-|구분         | Skill 명                                   | 
-|:------------|:------------------------------------------|
-|**Language** |Java, Javascript, Python, Jsp, Html5, Css  |
-|**Framework**|Spring Web, Spring Boot, Mybatis           |
-|**DBMS**     |Oracle, PostgreSQL                         |
-|**System**   |Window, Linux                              |
-|**Tool**     |Eclipse, Visual Studio Code, Benthic, Toad |
-|**Other**    |Svn, DevEye, Git, Redmine                  |
+|구분         | Skill 명                                         | 
+|:------------|:------------------------------------------------|
+|**Language** |Java, Javascript, Python, Node, Jsp, Html5, Css  |
+|**Framework**|Spring Web, Spring Boot, Mybatis                 |
+|**DBMS**     |Oracle, PostgreSQL                               |
+|**System**   |Window, Linux                                    |
+|**Tool**     |Eclipse, Visual Studio Code, Benthic, Toad       |
+|**Other**    |Svn, DevEye, Git, Redmine                        |
 
 <!-- #### - Language
 ![Java](/assets/images/about/java.png){: .about-image}
