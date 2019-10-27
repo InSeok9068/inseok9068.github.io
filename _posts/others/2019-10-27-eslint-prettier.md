@@ -79,6 +79,10 @@ npx install-peerdeps --dev eslint-config-airbnb-base
 자 이제 거의 다왔다. Root디렉토리에 해당 두개의 파일을 만들어서 복사하여준다.<br>
 아래의 두개의 파일은 본인의 입맛에 맞게 수정해서 사용하면 된다. 일단 가장 기본적인 설정만 해둔 상태이다.
 
+Prettier, ESlint 공식 홈페이지를 참조하면 설정을 더 다양하게 할 수 있다.<br>
+[Prettier](https://prettier.io/docs/en/options.html)<br>
+[ESlint](https://eslint.org/docs/rules/)
+
 #### .eslintrc.json 
 ```json
 { 
