@@ -6,6 +6,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 // code 폰트 사이즈 설정
 // code {
@@ -20,6 +21,10 @@
 // content font-size 조정 default(1.0em)
 .page__content p, .page__content li {
 	font-size: 0.8em;
+}
+
+body {
+	font-family: 'Noto Sans KR', serif;
 }
 
 .about-image {
