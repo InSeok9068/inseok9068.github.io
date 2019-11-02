@@ -6,6 +6,8 @@
 ```shell
 chcp 65001 
 jekyll serve
+
+jekyll serve --livereload 브라우저 자동 리로드
 ```
 ---
 ## Jekyll 설정
