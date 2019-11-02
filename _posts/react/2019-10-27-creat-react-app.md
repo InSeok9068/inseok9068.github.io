@@ -1,7 +1,7 @@
 ---
 title: "React 프로젝트 create-react-app로 시작하기"
 categories: 
-  - others
+  - react
 tags : 
   - create-react-app
 ---

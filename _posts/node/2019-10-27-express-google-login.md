@@ -1,7 +1,7 @@
 ---
 title: "Exprees 서버 Google 소셜 로그인"
 categories: 
-  - others
+  - node
 tags : 
   - express
   - google
