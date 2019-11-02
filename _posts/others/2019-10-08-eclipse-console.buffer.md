@@ -1,5 +1,5 @@
 ---
-title: "이클립스 Console창 Buffer 사이즈 변경"
+title: "[Eclipse] Console창 Buffer 사이즈 변경"
 categories: 
   - others
 tags : 

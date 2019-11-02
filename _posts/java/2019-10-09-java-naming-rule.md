@@ -1,5 +1,5 @@
 ---
-title: "Java 명명 규칙(클래스, 메소드, 변수)"
+title: "[Java] 명명 규칙(클래스, 메소드, 변수)"
 categories: 
   - java
 ---

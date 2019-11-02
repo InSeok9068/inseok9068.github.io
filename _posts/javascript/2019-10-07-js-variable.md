@@ -1,5 +1,5 @@
 ---
-title: "Javasciprt 변수 접근자 var, let, const 차이"
+title: "[Javasciprt] 변수 접근자 var, let, const 차이"
 categories: 
   - javasciprt
 ---

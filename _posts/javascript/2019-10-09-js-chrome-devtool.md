@@ -1,5 +1,5 @@
 ---
-title: "Chrome 개발자 도구 간단 코딩"
+title: "[Javasciprt] Chrome 개발자 도구 간단 코딩"
 categories: 
   - javasciprt
 tags : 

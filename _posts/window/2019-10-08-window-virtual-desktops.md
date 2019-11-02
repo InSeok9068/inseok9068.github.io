@@ -1,5 +1,5 @@
 ---
-title: "Window 10 가상 데스크탑 단축키"
+title: "[Window] Window 10 가상 데스크탑 단축키"
 categories: 
   - window
 ---

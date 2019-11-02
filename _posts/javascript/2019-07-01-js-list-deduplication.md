@@ -1,5 +1,5 @@
 ---
-title: "Javasciprt 리스트 중복 제거"
+title: "[Javasciprt] 리스트 중복 제거"
 categories: 
   - javasciprt
 ---

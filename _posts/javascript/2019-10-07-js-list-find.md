@@ -1,5 +1,5 @@
 ---
-title: "Javasciprt 리스트 요소 검색"
+title: "[Javasciprt] 리스트 요소 검색"
 categories: 
   - javasciprt
 ---

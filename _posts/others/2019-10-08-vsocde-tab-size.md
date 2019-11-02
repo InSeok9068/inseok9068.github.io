@@ -1,5 +1,5 @@
 ---
-title: "VSCODE Tab 사이즈 변경"
+title: "[VSCODE] Tab 사이즈 변경"
 categories: 
   - others
 tags : 

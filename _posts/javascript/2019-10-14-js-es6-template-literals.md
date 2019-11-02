@@ -1,5 +1,5 @@
 ---
-title: "Javascript(ES6) Template Literals 활용 방법"
+title: "[Javasciprt](ES6) Template Literals 활용 방법"
 categories: 
   - javasciprt
 tags : 

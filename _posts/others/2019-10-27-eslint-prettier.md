@@ -1,5 +1,5 @@
 ---
-title: "VSCODE에 ESlint/Prettier 설정하기"
+title: "[VSCODE] ESlint/Prettier 설정하기"
 categories: 
   - others
 tags : 

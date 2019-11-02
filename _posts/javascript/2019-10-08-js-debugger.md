@@ -1,5 +1,5 @@
 ---
-title: "Javasciprt debugging 방법"
+title: "[Javasciprt] debugging 방법"
 categories: 
   - javasciprt
 tags : 

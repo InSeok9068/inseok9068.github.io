@@ -1,8 +1,7 @@
 ---
-title: "Javasciprt, Java 삼항 연산자"
+title: "[Javasciprt] 삼항 연산자"
 categories: 
   - javasciprt
-  - java
 ---
 
 나는 가끔은 IF문 보다 한줄로 깔끔하게 보기좋은 코드를 만들때는 삼항 연산자를 사용하곤 한다.

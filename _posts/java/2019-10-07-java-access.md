@@ -1,5 +1,5 @@
 ---
-title: "Java private, proteted, public 접근자 차이"
+title: "[Java] private, proteted, public 접근자 차이"
 categories: 
   - java
 ---

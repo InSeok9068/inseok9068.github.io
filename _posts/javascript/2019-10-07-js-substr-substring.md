@@ -1,5 +1,5 @@
 ---
-title: "Javasciprt substr, substring 차이점"
+title: "[Javasciprt] substr, substring 차이점"
 categories: 
   - javasciprt
 ---
