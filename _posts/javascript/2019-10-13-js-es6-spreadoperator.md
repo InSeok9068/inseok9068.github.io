@@ -1,5 +1,5 @@
 ---
-title: "[Javasciprt](ES6) spread operator 활용 방법"
+title: "[Javasciprt] (ES6) spread operator 활용 방법"
 categories: 
   - javasciprt
 tags : 
