@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] HTML DOM 접근 방법(id,name,class)"
 categories: 
-  - javasciprt
+  - javascript
 tag :
   - jquery
 ---

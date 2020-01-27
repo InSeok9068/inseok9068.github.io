@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] 리스트 요소 검색"
 categories: 
-  - javasciprt
+  - javascript
 ---
 
 Javascript에는 List 요소가 검색으로는 Includes, indexOf 두가지가 있다
