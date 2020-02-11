@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] (console.time,console.timeEnd)로 코드 실행시간 파악하기 "
 categories: 
-  - javasciprt
+  - javascript
 tags : 
   - console.time
   - console.timeEnd
