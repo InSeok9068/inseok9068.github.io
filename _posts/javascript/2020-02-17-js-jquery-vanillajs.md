@@ -27,8 +27,16 @@ tags :
 
 오늘은 Jquery의 문법을 자바스크립트로 대체하여 구현한 코드를 보며 하나씩 알아볼 예정이다.
 
+---
+
+### 돔 Selecter
 
 #### Id Selecter
+
+```html
+<div id="app"><div/>
+```
+
 ```js
 // Jquery
 $('#app')
@@ -39,6 +47,11 @@ document.querySelector('#app')
 ```
 
 #### Class Selecter
+
+```html
+<div class="app"><div/>
+```
+
 ```js
 // Jquery
 $('.app')
@@ -51,4 +64,42 @@ document.querySelector('.app')
 document.querySelectorAll('.app')
 ```
 
-# ... 추후 포스팅 예정
+---
+
+### 돔에서 데이터 얻기
+
+```html
+<div id="app" data-val="123">데이터</div>
+```
+
+```js
+// Jquery
+$('#app').data("val");
+
+// JS
+document.getElementById('app').dataset.val
+```
+
+---
+
+### 이벤트 바인딩
+
+```html
+<button id="app" >버튼</button>
+```
+
+```js
+// Jquery
+$('#app').click(()=>{
+
+});
+
+// JS
+document.getElementById('app')addEventListener('click', () => {
+
+});
+```
+
+---
+
+# ... 추후 이어서 포스팅 예정
