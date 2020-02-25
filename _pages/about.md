@@ -7,21 +7,6 @@ toc: true
 ## 시빠 개발자
 Front End 기술과 신기술에 관심이 많은 개발자입니다.
 
-### Project History
-- 호텔 솔루션 개발
-- API 시스템 개발
-
-### Skill
-
-|구분         | Skill 명                                         | 
-|:------------|:------------------------------------------------|
-|**Language** |Java, Javascript, Python, Node, Jsp, Html5, Css  |
-|**Framework**|Spring Web, Spring Boot, Mybatis                 |
-|**DBMS**     |Oracle, PostgreSQL                               |
-|**System**   |Window, Linux                                    |
-|**Tool**     |Eclipse, Visual Studio Code, Benthic, Toad       |
-|**Other**    |Svn, DevEye, Git, Redmine                        |
-
 <!-- #### - Language
 ![Java](/assets/images/about/java.png){: .about-image}
 ![Javascript](/assets/images/about/javascript.jpg){: .about-image}
