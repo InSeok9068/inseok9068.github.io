@@ -56,8 +56,17 @@ sidebar:
 ---
 ```
 ---
-## 동영상 첨부
+## 마크다운 문법
 
+#### 동영상 첨부
 ```html
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 ```
+
+#### 들여쓰기 및 줄바꿈
+Html 문법이 허용되므로
+```
+들여쓰기 : &nbsp;
+
+띄어쓰기 : <br>
+``` 
