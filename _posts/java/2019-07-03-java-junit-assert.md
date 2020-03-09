@@ -1,7 +1,7 @@
 ---
 title: "[Java] Junit Assert 주요 메서드 설명"
 categories: 
-  - java
+  - Java
 tags : 
   - junit
   - assert

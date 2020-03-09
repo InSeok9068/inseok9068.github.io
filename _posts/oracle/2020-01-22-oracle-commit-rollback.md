@@ -1,7 +1,7 @@
 ---
 title: "[Oracle] 커밋한 데이터한 복구 방법"
 categories: 
-  - oralce
+  - Oracle
 tag :
   - commit
 ---

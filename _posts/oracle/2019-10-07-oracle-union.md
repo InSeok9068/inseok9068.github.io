@@ -1,7 +1,7 @@
 ---
 title: "[Oracle] 집합 연산자 UNION ALL, UNION 차이점"
 categories: 
-  - oralce
+  - Oracle
 ---
 ### UNION ALL
 ``` sql

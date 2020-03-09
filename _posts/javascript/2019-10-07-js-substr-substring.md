@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] substr, substring 차이점"
 categories: 
-  - javascript
+  - Javascript
 ---
 
 문자열을 자르는데 자주 쓰이는 함수로는 substr, substring이 있다.

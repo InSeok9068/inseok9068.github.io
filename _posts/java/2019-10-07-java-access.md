@@ -1,7 +1,7 @@
 ---
 title: "[Java] private, proteted, public 접근자 차이"
 categories: 
-  - java
+  - Java
 ---
 
 Java에서 변수의 접근자를 선언해줄때 3가자의 **private, proteted, public**의 경우가 있다. 

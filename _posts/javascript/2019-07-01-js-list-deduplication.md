@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] 리스트 중복 제거"
 categories: 
-  - javascript
+  - Javascript
 ---
 
 ``` javascript

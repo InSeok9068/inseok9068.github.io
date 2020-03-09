@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] JSON List 내림차순, 오름차순 정렬"
 categories: 
-  - javascript
+  - Javascript
 tags : 
   - json
 ---

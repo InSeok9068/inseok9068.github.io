@@ -1,7 +1,7 @@
 ---
 title: "[SpringBoot] @Scheduled 사용으로 스케줄러 구현"
 categories: 
-  - springboot
+  - SpringBoot
 tags : 
   - Scheduled
 published : false

@@ -1,7 +1,7 @@
 ---
 title: "SQLD합격 후기"
 categories: 
-  - others
+  - Others
 tags : 
   - sqld
 ---

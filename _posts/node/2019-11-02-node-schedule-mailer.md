@@ -1,7 +1,7 @@
 ---
 title: "[Node] Node로 정해진 시간마다 이메일 전송(Schedule, Mailer 사용)"
 categories: 
-  - node
+  - Node
 tags : 
   - node-schedule
   - nodemailer

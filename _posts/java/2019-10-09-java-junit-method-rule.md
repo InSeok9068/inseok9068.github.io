@@ -1,7 +1,7 @@
 ---
 title: "[Java] Junit 메소드명 한글로 사용(한글날기념)"
 categories: 
-  - java
+  - Java
 tags : 
   - junit
 ---

@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] (ES6) Arrow Function의 this"
 categories: 
-  - javascript
+  - Javascript
 tags : 
   - this
   - Arrowfunction

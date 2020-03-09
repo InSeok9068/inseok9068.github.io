@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] 리스트 내림차순, 오름차순 정렬"
 categories: 
-  - javascript
+  - Javascript
 tags : 
   - sort
   - reverse

@@ -1,7 +1,7 @@
 ---
 title: "[Eclipse] Console창 Buffer 사이즈 변경"
 categories: 
-  - others
+  - Others
 tags : 
   - eclipse
 ---

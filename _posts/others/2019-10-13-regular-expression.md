@@ -1,7 +1,7 @@
 ---
 title: "정규표현식의 패턴"
 categories: 
-  - others
+  - Others
 tags : 
   - regexp
 published : false

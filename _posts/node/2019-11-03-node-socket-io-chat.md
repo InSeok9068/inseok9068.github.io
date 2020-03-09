@@ -1,7 +1,7 @@
 ---
 title: "[Node] Socket.Io로 구현해보는 간단한 웹 채팅"
 categories: 
-  - node
+  - Node
 tags : 
   - socket.io
 ---

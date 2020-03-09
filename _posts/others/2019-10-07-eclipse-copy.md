@@ -1,7 +1,7 @@
 ---
 title: "[Eclipse] 영역 복사 단축키"
 categories: 
-  - others
+  - Others
 tags : 
   - eclipse
 ---

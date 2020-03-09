@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] debugging 방법"
 categories: 
-  - javascript
+  - Javascript
 tags : 
   - debugger
 ---

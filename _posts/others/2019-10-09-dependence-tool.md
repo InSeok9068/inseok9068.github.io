@@ -1,7 +1,7 @@
 ---
 title: "개발언어별 의존성 관리도구"
 categories: 
-  - others
+  - Others
 tags : 
   - java
   - node

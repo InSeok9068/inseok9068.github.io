@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] Jquery에서 벗어나 VanillaJS(순수 자바스크립트) 적응하기"
 categories: 
-  - javascript
+  - Javascript
 tags : 
   - Jquery
   - VanillnaJs

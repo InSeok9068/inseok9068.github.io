@@ -1,7 +1,7 @@
 ---
 title: "[Eclipse] Upper Case, Lower Case 단축키"
 categories: 
-  - others
+  - Others
 tags : 
   - eclipse
 ---

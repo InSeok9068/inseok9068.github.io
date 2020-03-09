@@ -1,7 +1,7 @@
 ---
 title: "[Node] 간단한 예제로 알아보는 Node 싱글톤"
 categories: 
-  - node
+  - Node
 tag:
   - singleton
 ---

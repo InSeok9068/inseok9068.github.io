@@ -1,7 +1,7 @@
 ---
 title: "[Java] Request 파라미터 HashMap으로 변환"
 categories: 
-  - java
+  - Java
 tags : 
   - request
 ---

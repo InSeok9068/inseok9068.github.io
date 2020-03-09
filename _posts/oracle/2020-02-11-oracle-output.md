@@ -1,7 +1,7 @@
 ---
 title: "[Oracle] 프로시저 결과 및 값을 출력 DBMS_OUTPUT"
 categories: 
-  - oralce
+  - Oracle
 tag :
   - output
 ---

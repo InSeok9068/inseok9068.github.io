@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] 콜백 지옥의 해결방법 Promise"
 categories: 
-  - javascript
+  - Javascript
 tag:
   - promise
 ---

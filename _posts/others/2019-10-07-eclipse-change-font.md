@@ -1,7 +1,7 @@
 ---
 title: "[Eclipse] Font 변경"
 categories: 
-  - others
+  - Others
 tags : 
   - eclipse
 ---

@@ -1,7 +1,7 @@
 ---
 title: "[Java] Private 변수 Getter Setter 메소드 자동 완성"
 categories: 
-  - java
+  - Java
 tags : 
   - eclipse
 ---

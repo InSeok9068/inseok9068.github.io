@@ -1,7 +1,7 @@
 ---
 title: "[Javasciprt] (ES6) Template Literals 활용 방법"
 categories: 
-  - javascript
+  - Javascript
 tags : 
   - es6
   - Template Literals
