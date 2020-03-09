@@ -3,7 +3,7 @@ title: "[SpringBoot] @Scheduled 사용으로 스케줄러 구현"
 categories: 
   - springboot
 tags : 
-  - @Scheduled
+  - Scheduled
 published : false
 ---
 
@@ -36,4 +36,3 @@ zone : cron표현식을 사용했을 때 사용할 time zone으로 따로 설정
 각 별 위치에 따라 주기를 다르게 설정 할 수 있다.
 순서대로 초-분-시간-일-월-요일 순이다. 그리고 괄호 안의 숫자 범위 내로 별 대신 입력 할 수도 있다.
 요일에서 0과 7은 일요일이며, 1부터 월요일이고 6이 토요일이다.
-
