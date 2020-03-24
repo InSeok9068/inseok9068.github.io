@@ -14,10 +14,7 @@ tags :
 
 작업 중에 Exception이 발생하면 해당 작업을 모두 롤백 시키며 Exception을 던져준다.
 
-이러한 작업을 꼭 @Transactional을 사용하지 않고 @Service로 되어있는 서비스단 전부를 Spring Boot설정으로
-
-트랜잭션 처리가 가능하게 일괄처리할 수 있다.
-
+#### @Transactional
 ```java
 
 @Component
@@ -29,4 +26,41 @@ public Class Process {
   }
 } 
 
+```
+
+이러한 작업을 꼭 @Transactional을 사용하지 않고 *serviceImpl로 되어있는 메서드 전부를 Spring Boot설정으로
+
+트랜잭션 처리가 가능하게 일괄처리할 수 있다.
+
+#### Java Config
+```java
+@Configuration
+public class TransactionAspect {
+	
+	@Autowired
+	PlatformTransactionManager transactionManager;
+
+	@Bean
+	public TransactionInterceptor transactionAdvice() {
+		NameMatchTransactionAttributeSource txAttributeSource = new NameMatchTransactionAttributeSource();
+		RuleBasedTransactionAttribute txAttribute = new RuleBasedTransactionAttribute();
+		
+		txAttribute.setRollbackRules(Collections.singletonList(new RollbackRuleAttribute(Exception.class)));
+		txAttribute.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRED);
+		
+		HashMap<String, TransactionAttribute> txMethods = new HashMap<String, TransactionAttribute>();
+		txMethods.put("*", txAttribute);
+		txAttributeSource.setNameMap(txMethods);
+
+		return new TransactionInterceptor(transactionManager, txAttributeSource);
+	}
+
+	@Bean
+	public Advisor transactionAdviceAdvisor() {
+		AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
+		pointcut.setExpression("execution(* 패키지 경로..service.*Impl.*(..))");
+		return new DefaultPointcutAdvisor(pointcut, transactionAdvice());
+	}
+	
+}
 ```
