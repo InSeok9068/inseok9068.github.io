@@ -52,6 +52,9 @@ tags :
 ### 8. 코드 자동 완성 기능 해제 (본인은 설정 해놓는편)
 - Window > Preferences > Java > Editor > Content Assist > **Enable auto activation 체크 해제**
 
+### 9. 코드 품질 검사 플러그인 설치
+- Help > Eclipse Marketplace > Find(SonarLint)) > **SonarLint**
+
 ### 10. eclipse.ini 파일 수정
 >Xverify:none
 >
