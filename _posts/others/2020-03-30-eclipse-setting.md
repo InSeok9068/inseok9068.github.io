@@ -53,43 +53,43 @@ tags :
 - Window > Preferences > Java > Editor > Content Assist > **Enable auto activation 체크 해제**
 
 ### 10. eclipse.ini 파일 수정
->Xverify:none 
+>Xverify:none
 >
 >클래스 검사 생략. eclipse 실행 시간 단축
 >
->XX:+UseParallelGC 
+>XX:+UseParallelGC
 >
 >Parallel Collector를 사용. 병렬 가비지 컬렉션.
 >
->XX:-UseConcMarkSweepGC 
+>XX:-UseConcMarkSweepGC
 >
 >병행 mark-sweepGC 기능을 수행하여 GUI 응답 속도 처리
 >
->XX:PermSize=32M 
+>XX:PermSize=32M
 >
 >eclipse 클래스 로딩 기본 메모리
 >
->XX:MaxPermSize=128M 
+>XX:MaxPermSize=128M
 >
 >eclipse 클래스 로딩 최대 메모리
 >
->Xms256m 
+>Xms256m
 >
 >eclipse 실행시 잡는 최소 메모리
 >
->Xmx256m 
+>Xmx256m
 >
 >eclipse 실행시 잡는 최대 메모리
 
 #### 예시)
 ```
--Xverify:none 
+-Xverify:none
 -XX:+UseParallelGC
--XX:-UseConcMarkSweepGC 
+-XX:-UseConcMarkSweepGC
 -XX:PermSize=64M
 -XX:MaxPermSize=512M  
--XX:MaxNewSize=512M 
--XX:NewSize=128M 
+-XX:MaxNewSize=512M
+-XX:NewSize=128M
 -Xms2048m
 -Xmx2048m
 -vm
