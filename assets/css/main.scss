@@ -20,7 +20,7 @@
 
 // content font-size 조정 default(1.0em)
 .page__content p, .page__content li {
-	font-size: 0.8em;
+	font-size: 0.8em !important;
 }
 
 // content hr 굵기와 색상 조절
