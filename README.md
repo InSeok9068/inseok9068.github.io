@@ -7,6 +7,7 @@
 chcp 65001 
 jekyll serve
 
+chcp 65001 
 jekyll serve --livereload 브라우저 자동 리로드
 ```
 ---
