@@ -10,13 +10,24 @@ jekyll serve
 chcp 65001 
 jekyll serve --livereload 브라우저 자동 리로드
 ```
+
 ---
+
+## Jekyll 버전 이슈시 
+```shell
+bundle exec jekyll serve --livereload
+```
+
+---
+
 ## --livereload 에러시
 ```
 gem uninstall eventmachine
 gem install eventmachine --platform ruby
 ``` 
+
 ---
+
 ## Jekyll 설정
 ```yaml
 ---
