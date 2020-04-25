@@ -1,9 +1,7 @@
 ---
 title: "[Eclipse] Font 변경"
 categories: 
-  - Others
-tags : 
-  - eclipse
+  - Eclipse
 ---
 
 Eclipse 메뉴 바에서 Window -> Preferences -> General -> Appearance -> Colors And Fonts

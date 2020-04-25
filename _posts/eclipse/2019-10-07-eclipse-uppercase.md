@@ -1,9 +1,7 @@
 ---
 title: "[Eclipse] Upper Case, Lower Case 단축키"
 categories: 
-  - Others
-tags : 
-  - eclipse
+  - Eclipse
 ---
 
 ### Ctrl + Shift + Y 

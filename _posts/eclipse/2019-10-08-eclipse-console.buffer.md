@@ -1,9 +1,7 @@
 ---
 title: "[Eclipse] Console창 Buffer 사이즈 변경"
 categories: 
-  - Others
-tags : 
-  - eclipse
+  - Eclipse
 ---
 
 개발을 하다보면 log4j를 이용하여 Console창에 로그를 찍는 경우가 많다.<br>

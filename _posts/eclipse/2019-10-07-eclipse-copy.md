@@ -1,9 +1,7 @@
 ---
 title: "[Eclipse] 영역 복사 단축키"
 categories: 
-  - Others
-tags : 
-  - eclipse
+  - Eclipse
 ---
 
 Copy and Paste로 페이지의 필요한 부분을 복사하다 보면 딱 필요한 부분만 복사하고 싶은 경우가 있을 것이다.

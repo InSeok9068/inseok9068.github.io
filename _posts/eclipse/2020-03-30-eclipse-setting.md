@@ -1,9 +1,7 @@
 ---
 title: "[Eclipse] 여러가지 초기 세팅"
 categories: 
-  - Others
-tags : 
-  - eclipse
+  - Eclipse
 ---
 
 이클립스 초기 설정을 잡을 때 가끔 내가 편리하게 이용하던 기능을 세팅하는데 까먹거나 하는 경우가 있어

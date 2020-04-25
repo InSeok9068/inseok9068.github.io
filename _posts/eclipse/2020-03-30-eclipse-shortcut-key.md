@@ -1,9 +1,9 @@
 ---
 title: "[Eclipse] 단축키 모음"
 categories: 
-  - Others
+  - Eclipse
 tags : 
-  - eclipse
+  - ShortCutKey
 ---
 
 > 해당 포스팅을 [참조](http://blog.daum.net/sualchi/13720369) 하였습니다.
