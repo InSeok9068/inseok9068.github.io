@@ -25,7 +25,7 @@ java -jar -Dspring.profiles.active=prod REST-API-0.0.1-SNAPSHOT.jar
 이와 같은 문제점을 해결하기 위해 **nohup**이라는 문으로 Background 실행을 할 수 있다.
 
 ```
-nohup java -jar -Dspring.profiles.active=local WINGS-API-LOTTE-0.0.1-SNAPSHOT.jar &
+nohup java -jar -Dspring.profiles.active=prod REST-API-0.0.1-SNAPSHOT.jar &
 ```
 
 위와 같이 실행하면 이제 Background로 서버가 실행되며 해당 폴더에 **nohup.sh**라는 파일이 생길 텐데
