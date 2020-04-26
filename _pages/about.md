@@ -5,7 +5,7 @@ toc: true
 ---
 
 ## 시빠 개발자
-Front End 기술과 신기술에 관심이 많은 개발자입니다.
+자동화와 생산성에 관심 많은 백엔드 개발자 입니다.
 
 <!-- #### - Language
 ![Java](/assets/images/about/java.png){: .about-image}
