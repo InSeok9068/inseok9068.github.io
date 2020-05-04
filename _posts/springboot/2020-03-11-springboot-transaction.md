@@ -14,18 +14,29 @@ tags :
 
 작업 중에 Exception이 발생하면 해당 작업을 모두 롤백 시키며 Exception을 던져준다.
 
+또한 해당 Exception마다 롤백 여부 또한 정해줄 수 있다.
+
+- **rollbackOn** : 롤백시킬 Exception
+
+- **dontRollbackOn** : 롤백을 안시킬 Exception
+
 #### @Transactional
 ```java
 
 @Component
 public Class Process {
   
-  @Transactional
-  public void run {
+  @Transactional(rollbackOn = RollBackException.class, dontRollbackOn = RuntimeException.class)
+  public void run() throws Exception {
     .... 데이터 삽입 프로세스
-  }
-} 
 
+    if(조건){
+        throw new RollBackException();
+    }else{
+        throw new RuntimeException();
+    }
+  }
+}
 ```
 
 이러한 작업을 꼭 @Transactional을 사용하지 않고 *serviceImpl로 되어있는 메서드 전부를 Spring Boot설정으로
