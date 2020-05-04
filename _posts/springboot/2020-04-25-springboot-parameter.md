@@ -46,7 +46,29 @@ public class TestController (){
 public class TestController (){
 
   @GetMapping("/{userId}/{memo}")
-  public String test(@PathVariable("userId") String userId, 
+  public String test(@PathVariable("userId") String userId,
+                     @PathVariable("memo")   String memo){
+
+    //아래와 같이 해당 변수에 파라미터값이 할당된다.
+    //userId = "test"
+    //memo   = "테스트"
+
+    return "TEST 성공"
+  }
+  
+}
+```
+
+@PathVariable에서 이메일과 같은 방식의 값이나 특수문자를 받을 때는 값이 잘리거나 비정상적으로 들어온다.
+
+이때는 아래와 같은 방법을 사용하면 정상적으로 받을 수 있다.
+
+```java
+@RestController
+public class TestController (){
+
+  @GetMapping("/{userId}/{memo:.+}")
+  public String test(@PathVariable("userId") String userId,
                      @PathVariable("memo")   String memo){
 
     //아래와 같이 해당 변수에 파라미터값이 할당된다.
