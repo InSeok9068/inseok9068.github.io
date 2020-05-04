@@ -89,3 +89,24 @@ Html 문법이 허용되므로
 
 띄어쓰기 : <br>
 ``` 
+
+#### 윗첨자, 아랫첨자
+
+윗첨자<sup>윗첨자<sup>    
+아랫첨자<sub>아랫첨자<sub>
+
+
+```
+윗첨자<sup>윗첨자<sup>      -- 윗첨자
+아랫첨자<sub>아랫첨자<sub>  -- 아랫첨자
+```
+
+#### 가운데 정렬
+
+<center>가운데정렬</center>
+
+#### 이모티콘 넣기
+
+<https://apps.timwhitlock.info/emoji/tables/unicode#note1> 해당 홈페이지에서 Navtive 복사 하여 넣기
+
+😁
