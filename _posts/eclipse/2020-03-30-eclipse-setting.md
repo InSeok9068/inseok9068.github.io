@@ -53,7 +53,13 @@ categories:
 ### 9. 코드 품질 검사 플러그인 설치
 - Help > Eclipse Marketplace > Find(SonarLint)) > **SonarLint**
 
-### 10. eclipse.ini 파일 수정
+### 10. Lombok 설정
+- [Lombok 설정](https://velog.io/@yoop/Eclipse%EC%97%90-Lombok-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
+
+### 11. Quick Search 플러그인 설치
+- [Quick Search 플러그인 설치](https://niceman.tistory.com/182)
+
+### 12. eclipse.ini 파일 수정
 >Xverify:none
 >
 >클래스 검사 생략. eclipse 실행 시간 단축
