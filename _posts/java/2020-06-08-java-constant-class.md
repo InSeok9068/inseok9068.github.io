@@ -53,4 +53,10 @@ tags :
 
 ---
 
+### **NumberUtils**
+- INTEGER_ZERO
+- INTEGER_ONE
+
+---
+
 # ... 추후 이어서 포스팅 예정

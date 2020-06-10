@@ -57,9 +57,14 @@ categories:
 - [Lombok 설정](https://velog.io/@yoop/Eclipse%EC%97%90-Lombok-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
 
 ### 11. Quick Search 플러그인 설치
-- [Quick Search 플러그인 설치](https://niceman.tistory.com/182)
+- Help > Eclipse Marketplace > Find(Quick Search)) > **Quick Search** 
+- **단축키 Ctrl + Shift + L**
 
-### 12. eclipse.ini 파일 수정
+### 12. Enhanced Class Decompiler 플러그인 설치
+- Help > Eclipse Marketplace > Find(Decompiler)) > **Enhanced Class Decompiler** 
+- [**버전문제로 호환 안되는 현상 발생 시 참고**](https://dololak.tistory.com/697)
+
+### 13. eclipse.ini 파일 수정
 >Xverify:none
 >
 >클래스 검사 생략. eclipse 실행 시간 단축
