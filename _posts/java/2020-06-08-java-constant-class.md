@@ -59,4 +59,11 @@ tags :
 
 ---
 
+### **HttpStatus**
+- OK
+- NOT_FOUND
+- INTERNAL_SERVER_ERROR
+
+---
+
 # ... 추후 이어서 포스팅 예정
