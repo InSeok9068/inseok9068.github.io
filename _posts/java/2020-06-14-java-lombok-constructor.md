@@ -1,5 +1,5 @@
 ---
-title: "[Java] Lombok의 생성자 Annotation 3개를 알아보자."
+title: "[Java] Lombok의 생성자 Annotation 3개를 알아보자"
 categories: 
   - Java
 tags : 
