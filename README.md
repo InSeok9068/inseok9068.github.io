@@ -1,5 +1,20 @@
 # inseok9068.github.io
 
+## 루비 설치 후 Jekyll 설치
+```shell
+gem install jekyll bundler
+
+bundle install
+
+gem uninstall eventmachine
+gem install eventmachine --platform ruby
+
+chcp 65001 
+bundle exec jekyll serve --livereload
+```
+
+---
+
 ## 로컬 서버 실행
 한국어 깨지는 현상 
 
