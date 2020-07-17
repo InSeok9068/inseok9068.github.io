@@ -66,4 +66,9 @@ tags :
 
 ---
 
+### **StandardCharsets**
+- UTF_8
+
+---
+
 # ... 추후 이어서 포스팅 예정
