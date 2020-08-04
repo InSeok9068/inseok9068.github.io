@@ -7,6 +7,9 @@ tags :
   - google
 ---
 
+>[인프런 OAuth2 강의](https://www.inflearn.com/course/web2-oauth2/)
+> 해당 강의를 듣고 보시면 많은 도움이 됩니다.
+
 웹 사이트를 돌아다녀보면 회원가입하며 로그인하는게 여간 귀찮은게 아니다. 그래서 많이들 소셜 로그인을 이용해며<br>
 대표적으로는 Google, FaceBook, Naver 등이 있다. 
 
