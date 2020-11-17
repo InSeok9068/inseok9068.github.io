@@ -19,13 +19,15 @@ categories:
 - 어노테이션으로 반복되는 코드를 없애주는 플러그인
 
 ### 3. Request mapper
-- Controller의 Request Mapping된 URL 안에서 검색해 주는 플러그인 **단축키(Ctrl+Shift+\\)**
+- Controller의 Request Mapping된 URL 안에서 검색해 주는 플러그인<br>
+**단축키(Ctrl+Shift+\\)**
 
 ### 4. One Dark Theme
 - 개인적으로 좋아하는 테마 플러그인이며 VSCODE에서도 사용 중이다.
 
 ### 5. Rainbow Brackets
-- if 문의 많은 괄호를 색깔별로 구분하여 주는 플러그인 **한 줄에 많은 괄호가 있는 코드를 구분하기 쉬움**
+- if 문의 많은 괄호를 색깔별로 구분하여 주는 플러그인<br>
+**한 줄에 많은 괄호가 있는 코드를 구분하기 쉬움**
 
 ### 6. CodeGlance
 - VSOCDE처럼 사이드에 코드 미니맵을 나타내어주는 플러그인이며 개인적으로는 빠른 스크롤에 사용하고 있다.
