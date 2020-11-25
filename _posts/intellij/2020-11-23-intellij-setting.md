@@ -16,3 +16,19 @@ categories:
 
 ### 2. Plugins 설치
 [플러그인 설치](https://inseok9068.github.io/intellij/intellij-plugins/)
+
+### 3. Auto Imports 설정
+- Editor > General > Auto Import > Optimize imports on the fly (for courrent project), Add unambiguous imports on the fly 체크
+
+### 4. Live Template 설정
+- Editor > Live Templates > 원하는 Templates 추가 및 사용할 applicable contexts 설정
+
+### 5. Tomcat JSP 파일 자동 재시작
+- Tmocat > Edit Configuration > Server > On 'Update' action, On frame deactivation `Update classes and resources`
+
+### 6. MultiModule 프로젝트 구성 시 Spring Boot Working directory 못찾는 현상 
+- 해당프로젝트 Edit Configuration > Working directory > 해당 프로젝트 경로 절대 경로로 설정
+
+### 7. 자동 빌드 재시작
+- Setting > Build, Execution, Deployment > Compiler > Build project automatically 체크
+- Ctrl + Shift + A > Registry > `compiler.automake.allow.when.app.running` 체크
