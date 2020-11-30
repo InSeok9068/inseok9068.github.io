@@ -14,6 +14,9 @@ categories:
 #### 자동완성 -> 스마트 자동완성
 - Setting > Keymap > `Completion` 검색 > SmartType **(Ctrl + Space)** 변경 후 기존값 삭제
 
+#### 화면 분할
+- Setting > Keymap > `Split` 검색 > Split Vertically **(Ctrl + Shift + F11)** 변경
+
 ### 2. Plugins 설치
 [플러그인 설치](https://inseok9068.github.io/intellij/intellij-plugins/)
 
