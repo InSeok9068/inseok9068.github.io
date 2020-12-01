@@ -11,8 +11,8 @@ categories:
 #### 화면 전체 종료 
 - Setting > Keymap > `Close` 검색 > Close All **(Ctrl + Shift + F4)** 변경 후 기존값 삭제
 
-#### 자동완성 -> 스마트 자동완성
-- Setting > Keymap > `Completion` 검색 > SmartType **(Ctrl + Space)** 변경 후 기존값 삭제
+#### ~~자동완성 -> 스마트 자동완성~~
+- ~~Setting > Keymap > `Completion` 검색 > SmartType **(Ctrl + Space)** 변경 후 기존값 삭제~~
 
 #### 화면 분할
 - Setting > Keymap > `Split` 검색 > Split Vertically **(Ctrl + Shift + F11)** 변경
