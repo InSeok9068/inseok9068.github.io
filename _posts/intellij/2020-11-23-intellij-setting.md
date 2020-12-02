@@ -35,3 +35,6 @@ categories:
 ### 7. 자동 빌드 재시작
 - Setting > Build, Execution, Deployment > Compiler > Build project automatically 체크
 - Ctrl + Shift + A > Registry > `compiler.automake.allow.when.app.running` 체크
+
+### 8. Mybatis XML id 불일치 관련 오류
+- Setting > `mybatis` 검색 > Mybatis > Mapper xml inspection 체크 해제
