@@ -45,3 +45,9 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 
 #### Ctrl + Alt + B
 - 해당 코드의 구현부로 이동
+
+#### Ctrl + F9
+- Project Build
+
+#### Alt + M
+- String Manipulation(Plugin)
