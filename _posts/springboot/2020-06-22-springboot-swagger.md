@@ -1,8 +1,8 @@
 ---
 title: "[SpringBoot] Swagger2로 Rest API 문서화 및 테스트 하기"
-categories: 
+categories:
   - SpringBoot
-tags : 
+tags:
   - Swagger2
   - RestAPI
 ---
@@ -61,6 +61,7 @@ dependencies {
     /*-----------------------------------------------------------------------*/
 }
 ```
+
 ---
 
 ### 2. Java Configration 추가
@@ -111,6 +112,9 @@ URL에 **http://localhost:8080/swagger-ui.html#/**를 입력해보면
 
 아래와 같은 화면이 뜨면 정상적으로 Swagger2 기초 설정이 완료되었다.
 
+- 여기서 하나 팁으로는 **description**에 대한 값은 String으로 하여 HTML문법을 사용해주면 <br>
+  좀 더 다양한하게 설명이 가능하다.
+
 ![IMAGE1](/assets/images/post/2020-06-22-springboot-swagger-image1.PNG)
 
 ---
@@ -142,11 +146,11 @@ public class SwaggerController {
 ```
 
 - **@Api** : tag 옵션 값으로 Controller 명칭을 지정해 줄 수 있다.
-- **@@ApiIgnore** : 해당 Controller를 Swagger 페이지에서 보이지 않게 해준다.
+- **@ApiIgnore** : 해당 Controller를 Swagger 페이지에서 보이지 않게 해준다.
 - **@ApiOperation** : 해당 메소드의 설명을 나타내 준다.
   - value : 간단하게 메소드의 설명을 적어준다.
   - note : 좀 더 자세하게 메소드의 설명을 적어준다.
-  - response : Response 타입을 지정해 준다.
+  - response : Response 타입을 지정해 준다. (지정하여 주지 않으면 Response객체를 파악하여 형태를 보여준다.)
 - **@ApiResponses** : Response 에러 설명을 나타내 준다.
   - @ApiResponse : Response Code와 Message를 적어준다.
 - **@ApiParam** : 해당 파라미터에 대한 설명을 나타내 준다.
@@ -181,8 +185,10 @@ public class User {
 
 - **@ApiModel** : 해당 클래스가 Api 통신할 때 사용되는 클래스임을 명시해 준다.
 - **@ApiModelProperty** : 해당 변수의 설명을 나태내 준다.
-  - value : 변수에 대한 설명을 적어준다.
+  - value : 변수에 대한 간단한 설명을 적어준다.
+  - note : 변수에 대한 자세한 설명을 적어준다.
   - required : 필수 값을 설정
+  - hidden : Hidden
 
 ```java
 @ApiOperation(value = "Post 통신", notes = "Post 통신 Note", response = String.class)
