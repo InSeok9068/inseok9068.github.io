@@ -1,8 +1,8 @@
 ---
 title: "[Java] 라이브러리 상수 변수 사용하기 (지속적 업데이트 예정)"
-categories: 
+categories:
   - Java
-tags : 
+tags:
   - Constant
 ---
 
@@ -27,12 +27,14 @@ tags :
 ---
 
 ### **Boolean**
+
 - True
 - False
 
 ---
 
 ### **HttpMethod**
+
 - GET
 - POST
 - PUT
@@ -41,6 +43,7 @@ tags :
 ---
 
 ### **MediaType**
+
 - APPLICATION_JSON
 - APPLICATION_FORM_URLENCODED
 - APPLICATION_XML
@@ -48,18 +51,21 @@ tags :
 ---
 
 ### **StringUtiils**
+
 - SPACE
 - EMPTY
 
 ---
 
 ### **NumberUtils**
+
 - INTEGER_ZERO
 - INTEGER_ONE
 
 ---
 
 ### **HttpStatus**
+
 - OK
 - NOT_FOUND
 - INTERNAL_SERVER_ERROR
@@ -67,7 +73,16 @@ tags :
 ---
 
 ### **StandardCharsets**
+
 - UTF_8
+
+---
+
+### **HttpStatus**
+
+- NOT_FOUND
+- BAD_REQUEST
+- INTERNAL_SERVER_ERROR
 
 ---
 
