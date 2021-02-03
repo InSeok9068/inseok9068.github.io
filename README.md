@@ -37,6 +37,8 @@ chcp 65001
 bundle exec jekyll serve
 
 브라우저 자동 리로드 : --livereload
+chcp 65001
+bundle exec jekyll serve --livereload
 ```
 
 ---
