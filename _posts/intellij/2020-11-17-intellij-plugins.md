@@ -1,6 +1,6 @@
 ---
 title: "[IntelliJ] 유용한 플러그인"
-categories: 
+categories:
   - IntelliJ
 ---
 
@@ -13,24 +13,35 @@ categories:
 알려주려고 한다.
 
 ### 1. Key Promoter X
+
 - 마우스로 작업을 하면 해당 작업이 단축키로 할 수 있는 작업이면 단축키 Key Map을 띄워주는 플러그인
 
 ### 2. Lombok
+
 - 어노테이션으로 반복되는 코드를 없애주는 플러그인
 
 ### 3. Request mapper
+
 - Controller의 Request Mapping된 URL 안에서 검색해 주는 플러그인<br>
-**단축키(Ctrl+Shift+\\)**
+  **단축키(Ctrl+Shift+\\)**
 
 ### 4. One Dark Theme
+
 - 개인적으로 좋아하는 테마 플러그인이며 VSCODE에서도 사용 중이다.
 
 ### 5. Rainbow Brackets
+
 - if 문의 많은 괄호를 색깔별로 구분하여 주는 플러그인<br>
-**한 줄에 많은 괄호가 있는 코드를 구분하기 쉬움**
+  **한 줄에 많은 괄호가 있는 코드를 구분하기 쉬움**
 
 ### 6. CodeGlance
+
 - VSOCDE처럼 사이드에 코드 미니맵을 나타내어주는 플러그인이며 개인적으로는 빠른 스크롤에 사용하고 있다.
 
 ### 7. Translation
+
 - 한국어를 영어로 영어를 한국어로 번역해 주는 플러그인이다. 변수명이나 메서드 명을 지을 때 유용하게 사용 가능한 플러그인이다.
+
+### 8. String Manipulation
+
+- camelCase, snake_case 등 String 관련 문자열 포멧을 단축키로 변경하게 해주는 플러그인이다.
