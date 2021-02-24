@@ -52,3 +52,9 @@ categories:
 ### 9. 맞춤법 오류 제거
 
 - Setting > Editor > Inspections > Proofreading > Typo > Process (code, literals, comments) 체크 해제
+
+### 9. 코드 Code Formatter 설정
+
+- Setting > Editer > Code Style > Hard wrap at (Default : 120) 300 설정
+- Setting > Editer > Code Style > JavaScript > Wrapping and Braces > Object(Align) : On colon
+- Setting > Editer > Code Style > JavaScript > Wrapping and Braces > Variable declarations : When grouped
