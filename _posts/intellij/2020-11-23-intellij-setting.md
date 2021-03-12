@@ -58,3 +58,7 @@ categories:
 - Setting > Editer > Code Style > Hard wrap at (Default : 120) 300 설정
 - Setting > Editer > Code Style > JavaScript > Wrapping and Braces > Object(Align) : On colon
 - Setting > Editer > Code Style > JavaScript > Wrapping and Braces > Variable declarations : When grouped
+
+### 10. Console 한글 깨짐 현상 해결
+
+- Shift x 2 전체검색 > Edit Custom VM Options... > `-Dfile.encoding=UTF-8` 해당 문구 추가
