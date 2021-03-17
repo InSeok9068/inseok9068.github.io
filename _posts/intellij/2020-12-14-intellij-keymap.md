@@ -70,3 +70,11 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 #### Alt + M
 
 - String Manipulation(Plugin)
+
+#### Ctrl + Shift + U
+
+- 대문자 소문자 일괄 치환
+
+#### Ctrl + Alt + Shift + T
+
+- 리팩토링 기능창

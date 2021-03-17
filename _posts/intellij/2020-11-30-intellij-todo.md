@@ -1,6 +1,6 @@
 ---
 title: "[IntelliJ] TODO 주석으로 할일 관리하기"
-categories: 
+categories:
   - IntelliJ
   - TODO
 ---
@@ -24,4 +24,3 @@ public class Main {
 ```
 
 ![IMAGE1](/assets/images/post/2020-11-30-intellij-todo-image1.PNG)
-
