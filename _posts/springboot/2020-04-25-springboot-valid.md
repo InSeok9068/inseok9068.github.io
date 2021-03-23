@@ -1,12 +1,12 @@
 ---
 title: "[SpringBoot] @Valid로 유효성 검사하기"
-categories: 
+categories:
   - SpringBoot
-tags : 
+tags:
   - Valid
 ---
 
-Spring에서 파라미터를 주고 받으면 통신을 할때 유효성이 필요할떄 
+Spring에서 파라미터를 주고 받으면 통신을 할때 유효성이 필요할떄
 
 해당 파라미터에 대해서 하나씩 검증체크를 해주었다.
 
@@ -17,13 +17,13 @@ Spring에서 파라미터를 주고 받으면 통신을 할때 유효성이 필�
 ```java
 @PostMapping("/message")
 @ResponseBody
-public String pushMessage(@RequestBody Message msg) throws Exception{
+public String pushMessage(@RequestBody Message msg) throws Exception {
 
-  if(msg.getMemo() != null || msg.getMemo().equals("")) {
-    throw new Exception("메모를 입력해주세요.");
-  }
-  
-  return "성공";
+    if (msg.getMemo() != null || msg.getMemo().equals("")) {
+        throw new Exception("메모를 입력해주세요.");
+    }
+
+    return "성공";
 }
 ```
 
@@ -34,9 +34,9 @@ public String pushMessage(@RequestBody Message msg) throws Exception{
 ```java
 @PostMapping("/message")
 @ResponseBody
-public String pushMessage(@RequestBody @Valid Message msg) throws Exception{
-  
-  return "성공";
+public String pushMessage(@RequestBody @Valid Message msg) throws Exception {
+
+    return "성공";
 }
 ```
 
@@ -44,17 +44,17 @@ public String pushMessage(@RequestBody @Valid Message msg) throws Exception{
 import javax.validation.constraints.NotNull;
 
 public class Message {
-	
-	@NotNull(message = "메모를 입력해주세요.")
-	private String Memo;
 
-	public String getMemo() {
-		return Memo;
-	}
+    @NotNull(message = "메모를 입력해주세요.")
+    private String Memo;
 
-	public void setMemo(String memo) {
-		Memo = memo;
-	}
+    public String getMemo() {
+        return Memo;
+    }
+
+    public void setMemo(String memo) {
+        Memo = memo;
+    }
 }
 ```
 
