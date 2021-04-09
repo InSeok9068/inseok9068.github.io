@@ -2,7 +2,6 @@
 title: "[IntelliJ] Build 시 Out Of Memory 대처법"
 categories:
   - IntelliJ
-published: false
 ---
 
 IntelliJ 새로운 Version이 Release 돼서 업그레이드하는 도중
