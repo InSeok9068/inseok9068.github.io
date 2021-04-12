@@ -6,7 +6,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 // code 폰트 사이즈 설정
 // code {
@@ -15,17 +15,18 @@
 
 // main 페이지 사이즈 설정
 .page {
-	padding-right: 0px !important;
-} 
+  padding-right: 0px !important;
+}
 
 // content font-size 조정 default(1.0em)
-.page__content p, .page__content li {
-	font-size: 0.8em !important;
+.page__content p,
+.page__content li {
+  font-size: 0.8em !important;
 }
 
 // content hr 굵기와 색상 조절
 .page__content hr {
-	border-top: 3px solid #b6b6b6;
+  border-top: 3px solid #b6b6b6;
 }
 
 // body {
@@ -33,6 +34,6 @@
 // }
 
 .about-image {
-	width  : 120px;
-	height : 100px !important;
+  width: 120px;
+  height: 100px !important;
 }
