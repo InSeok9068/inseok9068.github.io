@@ -45,3 +45,7 @@ categories:
 ### 8. String Manipulation
 
 - camelCase, snake_case 등 String 관련 문자열 포멧을 단축키로 변경하게 해주는 플러그인이다.
+
+### 9. TabMover
+
+- Tab의 위치를 이동시켜주는 플러그인이다.<br> **단축키 : Ctrl + Alt + Shift + ←/→**
