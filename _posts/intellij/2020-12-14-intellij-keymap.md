@@ -95,3 +95,7 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 #### Ctrl + Ctrl + ↑/↓
 
 - 멀티 커서
+
+#### Alt + F1 + 1
+
+- 해당 파일 Navigator
