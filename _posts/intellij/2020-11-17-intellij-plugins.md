@@ -49,3 +49,7 @@ categories:
 ### 9. TabMover
 
 - Tab의 위치를 이동시켜주는 플러그인이다.<br> **단축키 : Ctrl + Alt + Shift + ←/→**
+
+### 10. Vue.js
+
+- Vue.js 플러그인
