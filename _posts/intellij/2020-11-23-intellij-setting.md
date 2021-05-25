@@ -65,4 +65,4 @@ categories:
 
 ### 11. Auto Code Folding 해제
 
-- Setting > Editor > General > Code Folding > `One-line methods` 체크 해제
+- Setting > Editor > General > Code Folding > One-line methods 체크 해제
