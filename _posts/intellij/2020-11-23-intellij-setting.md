@@ -62,3 +62,7 @@ categories:
 ### 10. Console 한글 깨짐 현상 해결
 
 - Shift x 2 전체검색 > Edit Custom VM Options... > `-Dfile.encoding=UTF-8` 해당 문구 추가
+
+### 11. Auto Code Folding 해제
+
+- Setting > Editor > General > Code Folding > `One-line methods` 체크 해제
