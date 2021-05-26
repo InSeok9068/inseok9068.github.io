@@ -99,3 +99,7 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 #### Alt + F1 + 1
 
 - 해당 파일 Navigator
+
+#### Ctrl + Shift + I
+
+- 메서드 미리보기
