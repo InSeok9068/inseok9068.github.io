@@ -97,7 +97,6 @@ sidebar:
     text: "More text here."
     nav: sidebar-sample
 ---
-
 ```
 
 ---
@@ -139,6 +138,16 @@ Html 문법이 허용되므로
 #### 가운데 정렬
 
 <center>가운데정렬</center>
+
+#### 체크박스 만들기
+
+```
+- []  OK
+- [X] X
+```
+
+- [ ] 가능
+- [x] 불가능
 
 #### 이모티콘 넣기
 
