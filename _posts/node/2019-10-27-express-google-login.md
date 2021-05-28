@@ -1,29 +1,30 @@
 ---
 title: "[Node] Exprees 서버 Google 소셜 로그인"
-categories: 
+categories:
   - Node
-tags : 
+tags:
   - express
   - google
 ---
 
->[인프런 OAuth2 강의](https://www.inflearn.com/course/web2-oauth2/)
+> [인프런 OAuth2 강의](https://www.inflearn.com/course/web2-oauth2/)
 > 해당 강의를 듣고 보시면 많은 도움이 됩니다.
 
-웹 사이트를 돌아다녀보면 회원가입하며 로그인하는게 여간 귀찮은게 아니다. 그래서 많이들 소셜 로그인을 이용해며<br>
-대표적으로는 Google, FaceBook, Naver 등이 있다. 
+웹 사이트를 돌아다녀 보면 회원가입하며 로그인하는 게 여간 귀찮은 게 아니다. 그래서 많이들 소셜 로그인을 이용하며
 
-오늘은 Exprees로 Google 소셜 로그인 하는법을 알아보도록 하자.
+대표적으로는 Google, FaceBook, Naver 등이 있다.
 
-일단 Express서버를 구현해야하는데 하나씩 설정하기 시간이 걸리니 이러한 Express 서버를 한번 구축하여주는 패키지가 있다
+오늘은 Exprees로 Google 소셜 로그인하는 법을 알아보도록 하자.
+
+일단 Express 서버를 구현해야 하는데 하나씩 설정하기 시간이 걸리니 이러한 Express 서버를 한번 구축하여 주는 패키지가 있다
 
 ```shell
 npm install express-generator -g
 ```
 
-해당 express-generator 패키지를 글로벌로 설치하여준다.
+해당 express-generator 패키지를 글로벌로 설치하여 준다.
 
-설치한 글로벌 패키지를 통해서 express-google-login 프로젝트를 생성 하여 준다 본인은 Template 엔진으로 pug를 사용할것이다
+설치한 글로벌 패키지를 통해서 express-google-login 프로젝트를 생성하여 준다 본인은 Template 엔진으로 pug를 사용할 것이다
 
 ```shell
 express express-google-login --view=pug
@@ -31,7 +32,7 @@ express express-google-login --view=pug
 
 ![디렉토리](/assets/images/post/2019-10-27-express-google-login-image1.PNG)
 
-해당 프로젝트가 생겼다. 
+해당 프로젝트가 생겼다.
 
 ```shell
 //package.json을 기준으로 패키지 설치하여준다
@@ -77,7 +78,7 @@ npm install passport passport-google-oauth20 express-session --save
 ```json
 {
   "web": {
-    "client_id": "************************",    //본인 CliendId
+    "client_id": "************************", //본인 CliendId
     "project_id": "express-257208",
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
     "token_uri": "https://oauth2.googleapis.com/token",
@@ -133,12 +134,11 @@ var express = require("express");
 var router = express.Router();
 
 /* GET users listing. */
-router.get("/", function(req, res, next) {
+router.get("/", function (req, res, next) {
   res.render("new");
 });
 
 module.exports = router;
-
 ```
 
 #### login.js
@@ -164,7 +164,7 @@ passport.use(
     {
       clientID: google.web.client_id,
       clientSecret: google.web.client_secret,
-      callbackURL: google.web.redirect_uris[0]
+      callbackURL: google.web.redirect_uris[0],
     },
     (accessToken, refreshToken, profile, done) => {
       process.nextTick(() => {
@@ -187,9 +187,13 @@ router.get("/logout", (req, res) => {
 
 router.get("/google", passport.authenticate("google", { scope: ["profile"] }));
 
-router.get("/google/callback", passport.authenticate("google", { failureRedirect: "/login" }), (req, res) => {
-  res.redirect("/");
-});
+router.get(
+  "/google/callback",
+  passport.authenticate("google", { failureRedirect: "/login" }),
+  (req, res) => {
+    res.redirect("/");
+  }
+);
 
 module.exports = router;
 ```
@@ -227,7 +231,7 @@ app.use(
     secret: "key",
     cookie: { maxAge: 60 * 60 * 1000 },
     resave: false,
-    saveUninitialized: true
+    saveUninitialized: true,
   })
 );
 
@@ -248,12 +252,12 @@ app.use("/login", loginRouter);
 app.use("/new", authenticateUser, newRouter);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};
