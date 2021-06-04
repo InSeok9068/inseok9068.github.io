@@ -246,7 +246,9 @@ _기울임_
 
 ## 이모티콘
 
-<https://apps.timwhitlock.info/emoji/tables/unicode#note1> 해당 홈페이지에서 Navtive 복사 하여 넣기
+사용법 : `Window + .` 이모티콘 사용 및 아래의 링크를 통하여 Navtive 복사 하여 넣기
+
+<https://apps.timwhitlock.info/emoji/tables/unicode#note1>
 
 ---
 
