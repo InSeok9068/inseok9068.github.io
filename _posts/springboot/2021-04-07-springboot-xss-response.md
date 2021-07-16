@@ -136,3 +136,28 @@ Map<String, Object> responseXss(){
 마지막으로 당연한 말일 수도 있지만 기존의 서버에서 Response로 HTML 코드를 내려보내는 코드가 있다면
 
 우선적으로 리팩토링을 거쳐 해당 부분을 걷어내고 진행 줘야 한다.
+
+---
+
+### 5. 추가 이모지 이슈
+
+실제 운영을 하다 보니 윈도우 이모지 관련하여 파싱 중에 에러가 발생하는 케이스가 발견하였다.
+
+아래와 같은 코드로 수정하여 주면 이모지 관련한 이슈는 해결하여 추가로 작성한다.
+
+```java
+@Override
+public SerializableString getEscapeSequence(int ch) {
+    SerializedString serializedString;
+    char charAt = (char) ch;
+    if (Character.isHighSurrogate(charAt) || Character.isLowSurrogate(charAt)) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("\\u");
+        sb.append(String.format("%04x", ch));
+        serializedString = new SerializedString(sb.toString());
+    } else {
+        serializedString = new SerializedString(StringEscapeUtils.escapeHtml4(Character.toString(charAt)));
+    }
+    return serializedString;
+}
+```
