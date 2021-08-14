@@ -52,6 +52,10 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 
 - 탭 이동
 
+#### Ctrl + Shift + Alt + ←/→
+
+- 탭 위치 이동 **(Plugin : TabMover)**
+
 #### Ctrl + W
 
 - 커서 근처 영역을 확대해줍니다. **축소(Ctrl + Shift + W)**
@@ -103,3 +107,8 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 #### Ctrl + Shift + I
 
 - 메서드 미리보기
+
+#### Alt + Insert
+
+- 파일목록에서는 **파일 생성**
+- 파일 안에서는 **Code Generate**
