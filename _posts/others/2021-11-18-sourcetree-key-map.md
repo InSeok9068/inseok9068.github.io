@@ -26,3 +26,7 @@ tags:
 #### F5
 
 - Refresh
+
+#### Alt + Click
+
+- 확인버튼
