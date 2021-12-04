@@ -1,7 +1,9 @@
----
+bㅠ---
 title: "[IntelliJ] 여러가지 초기 세팅"
 categories:
-  - IntelliJ
+
+- IntelliJ
+
 ---
 
 인텔리 제이 Default Setting (개인적인)
@@ -43,7 +45,8 @@ categories:
 ### 7. 자동 빌드 재시작
 
 - Setting > Build, Execution, Deployment > Compiler > Build project automatically 체크
-- Ctrl + Shift + A > Registry > `compiler.automake.allow.when.app.running` 체크
+- Ctrl + Shift + A > Registry > `compiler.automake.allow.when.app.running` 체크</br>
+  ※ 2021.2 이후 버전부터는 Setting > Advanced Settings > `Allow auto-make to start even if developed application is currently running` 체크
 
 ### 8. Mybatis XML id 불일치 관련 오류
 
