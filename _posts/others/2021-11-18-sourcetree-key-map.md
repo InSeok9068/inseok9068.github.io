@@ -30,3 +30,7 @@ tags:
 #### Alt + Click
 
 - 확인버튼
+
+#### Shift + Alt + T
+
+- Open In Terminal
