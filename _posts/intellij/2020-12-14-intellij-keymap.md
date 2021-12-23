@@ -116,3 +116,17 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 #### Ctrl + H
 
 - 해당 클래스 계층 구조
+
+### Debugger
+
+#### F7
+
+- Step Into
+
+#### F8
+
+- Step Over
+
+#### F9
+
+- Resume Program
