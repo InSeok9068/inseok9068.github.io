@@ -69,3 +69,7 @@ categories:
 ### 11. Auto Code Folding 해제
 
 - Setting > Editor > General > Code Folding > One-line methods 체크 해제
+
+### 12. 자동완성 대소문자 구분 해제
+
+- Setting > Editor > General > Code Completion > Match case 체크 해제
