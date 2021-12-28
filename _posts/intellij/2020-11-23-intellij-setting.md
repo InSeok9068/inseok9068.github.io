@@ -1,9 +1,7 @@
-bㅠ---
+---
 title: "[IntelliJ] 여러가지 초기 세팅"
 categories:
-
-- IntelliJ
-
+  - IntelliJ
 ---
 
 인텔리 제이 Default Setting (개인적인)
