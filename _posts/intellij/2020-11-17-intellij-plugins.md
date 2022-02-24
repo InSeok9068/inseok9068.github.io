@@ -57,3 +57,11 @@ categories:
 ### 11. GitToolBox
 
 - 코드에 커서를 가져다 대면 해당 코드의 마지막 커밋 작성자/내용 표기해 줌
+
+### 12. Atom Material Icons
+
+- 폴더 및 파일의 아이콘을 좀 더 명확하게 보게 플러그인이다.
+
+### 13. Codota AI Autocomplete for Java and JavaScript
+
+- AI를 기반으로 하여 코드 추천 및 코드의 사용 빈도 알려주는 플러그인이다.
