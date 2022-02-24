@@ -130,3 +130,7 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 #### F9
 
 - Resume Program
+
+#### Ctrl + Q
+
+- Document 확인
