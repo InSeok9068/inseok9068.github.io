@@ -96,7 +96,7 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 
 - 리팩토링 기능창
 
-#### Ctrl + Ctrl + ↑/↓
+#### Ctrl + Ctrl + ↑/↓, Alt + Click, Ctrl + Alt + Shift + Click
 
 - 멀티 커서
 
