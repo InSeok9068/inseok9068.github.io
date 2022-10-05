@@ -71,3 +71,7 @@ categories:
 ### 12. 자동완성 대소문자 구분 해제
 
 - Setting > Editor > General > Code Completion > Match case 체크 해제
+
+### 13. Always Select Opened File 설정
+
+- Project > Show Options Menu (톱니바퀴) > Always Select Opened File
