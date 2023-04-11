@@ -54,7 +54,11 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 
 #### Ctrl + Shift + Alt + ←/→
 
-- 탭 위치 이동 **(Plugin : TabMover)**
+- [에디터 위치] 탭 위치 이동 **(Plugin : TabMover)**
+
+#### Ctrl + Shift + Alt + ←/→/↑/↓
+
+- [에디터 외 사이드바] 사이드바 사이즈 조절
 
 #### Ctrl + W
 
