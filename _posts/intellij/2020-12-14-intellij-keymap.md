@@ -162,3 +162,7 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 #### Ctrl + Shift + Alt + J
 
 - 같은 단어 일괄 선택
+
+#### Alt + C (Amazon Codewhisperer)
+
+- 자동 완성 호출
