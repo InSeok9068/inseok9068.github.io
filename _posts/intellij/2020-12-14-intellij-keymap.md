@@ -32,6 +32,10 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 
 - Service Run
 
+#### Ctrl + Shift + Alt + F10(개인 설정)
+
+- Service Run (Debug)
+
 #### Ctrl + F2
 
 - Service Stop
