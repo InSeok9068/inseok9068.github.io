@@ -170,3 +170,8 @@ IntelliJ의 자주 사용하는 단축키를 메모 해놓으려고 한다.
 #### Alt + C (Amazon Codewhisperer)
 
 - 자동 완성 호출
+
+#### Alt + Shift + [ / ] **(Plugin : Tab Shifter)**
+
+- 탭 사이드로 이동
+  - Ctrl + Alt + Shift + [ / ] : 커서 이동
