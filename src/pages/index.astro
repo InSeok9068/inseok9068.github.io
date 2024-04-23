@@ -1,0 +1,14 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { getPackageTitle } from '@/utils/package';
+---
+
+<Layout title={getPackageTitle()}>
+  <div class="hero bg-white">
+    <div class="hero-content text-center">
+      <div>
+        <h1 class="text-3xl font-bold">생산성을 좋아하는 개발자</h1>
+      </div>
+    </div>
+  </div>
+</Layout>

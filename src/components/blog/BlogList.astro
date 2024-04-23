@@ -1,0 +1,23 @@
+---
+import { Image } from 'astro:assets';
+import defaultBlogImage from '@/pages/images/default-blog-image.jpg';
+
+interface Props {
+  title: string;
+  image?: string;
+  url: string;
+}
+
+const { title, image, url } = Astro.props;
+---
+
+<div class="card w-1/2 bg-base-100 shadow-xl lg:card-side">
+  <figure>
+    <Image src={image! ?? defaultBlogImage} alt="Album" width="200" height="200" />
+  </figure>
+  <div class="card-body">
+    <a href={url}>
+      <h2 class="card-title">{title}</h2>
+    </a>
+  </div>
+</div>

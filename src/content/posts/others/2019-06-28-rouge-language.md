@@ -1,0 +1,113 @@
+---
+title: 'Rouge가 지원하는 언어 목록'
+categories:
+  - Others
+---
+
+### 지원 언어 목록
+
+[Rouge Wiki 참조](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
+
+- actionscript, as, as3
+- apache
+- apiblueprint, apib
+- applescript
+- biml
+- c
+- ceylon
+- cfscript, cfc
+- clojure, clj, cljs
+- cmake
+- coffeescript, coffee, coffee-script
+- common_lisp, cl, common-lisp, elisp, emacs-lisp
+- conf, config, configuration
+- coq
+- cpp, c++
+- csharp, c#, cs
+- css
+- d, dlang
+- dart
+- diff, patch, udiff
+- dot
+- eiffel
+- elixir, exs
+- erb, eruby, rhtml
+- erlang, erl
+- factor
+- fortran
+- gherkin, cucumber, behat
+- glsl
+- go, golang
+- gradle
+- groovy
+- haml, HAML
+- handlebars, hbs, mustache
+- haskell, hs
+- html
+- http
+- ini
+- io
+- java
+- javascript, js
+- jinja, django
+- json
+- json-doc
+- jsonnet
+- julia, jl
+- kotlin
+- liquid
+- literate_coffeescript, litcoffee
+- literate_haskell, lithaskell, lhaskell, lhs
+- llvm
+- lua
+- make, makefile, mf, gnumake, bsdmake
+- markdown, md, mkd
+- matlab, m
+- mosel
+- moonscript, moon
+- nasm
+- nginx
+- nim, nimrod
+- objective_c, objc
+- ocaml
+- pascal
+- perl, pl
+- php, php3, php4, php5
+- plaintext, text
+- powershell, posh
+- praat
+- prolog, prolog
+- properties
+- protouf, proto
+- puppet, pp
+- python, py
+- qml, qml
+- r, R, s, S
+- racket
+- ruby, rb
+- rust, rs
+- sass
+- scala, scala
+- scheme
+- scss
+- sed
+- shell, bash, zsh, ksh, sh
+- shell_session, terminal, console
+- slim
+- smalltalk, st, squeak
+- smarty, smarty
+- sml, ml
+- sql
+- swift
+- tap, tap
+- tcl
+- tex, TeX, LaTeX, latex
+- toml
+- tulip, tlp
+- twig
+- typescript, ts
+- vb, visualbasic
+- verilog
+- viml, vim, vimscript, ex
+- xml
+- yaml, yml

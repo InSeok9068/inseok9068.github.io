@@ -1,0 +1,15 @@
+---
+interface Props {
+  currentPage: number;
+  preUrl?: string;
+  nextUrl?: string;
+}
+
+const { currentPage, preUrl, nextUrl } = Astro.props;
+---
+
+<div class="join">
+  <a class="btn join-item" href={preUrl}>«</a>
+  <a class="btn join-item">{currentPage}</a>
+  <a class="btn join-item" href={nextUrl}>»</a>
+</div>
