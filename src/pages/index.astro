@@ -1,13 +1,18 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import { getPackageTitle } from '@/utils/package';
+import { Image } from 'astro:assets';
+import HomeHeroImage from '@/pages/images/home-hero.png';
 ---
 
-<Layout title={getPackageTitle()}>
-  <div class="hero bg-white">
-    <div class="hero-content text-center">
+<Layout>
+  <div class="hero mt-20">
+    <div class="hero-content flex-col">
+      <Image class="max-w-sm rounded-lg shadow-2xl" src={HomeHeroImage} alt="이미지" />
       <div>
-        <h1 class="text-3xl font-bold">생산성을 좋아하는 개발자</h1>
+        <h1 class="text-5xl font-bold">생산성을 좋아하는 개발자</h1>
+        <p class="py-6">풀스택 개발자를 목표로 나아가고 있는 개발자입니다.</p>
+        <a href="/posts" class="btn btn-primary">Go Blog</a>
+        <a href="/portfolio" class="btn btn-primary">Go Portfolio</a>
       </div>
     </div>
   </div>
