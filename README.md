@@ -8,4 +8,4 @@ Language : TypeScript
 
 SSG Framework : Astro
 
-CSS Framework : DaisyUI + Tailwind CSS
+CSS Framework : DaisyUI + Headless UI + Tailwind CSS
