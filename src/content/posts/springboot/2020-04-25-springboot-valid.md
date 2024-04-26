@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] @Valid로 유효성 검사하기'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - Valid
 ---

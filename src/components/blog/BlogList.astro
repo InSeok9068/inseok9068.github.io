@@ -4,11 +4,12 @@ import { Image } from 'astro:assets';
 
 interface Props {
   title: string;
-  image?: string;
   url: string;
+  tags?: string[];
+  image?: string;
 }
 
-const { title, image, url } = Astro.props;
+const { title, url, image, tags } = Astro.props;
 ---
 
 <div class="card w-full bg-base-100 shadow-xl lg:card-side sm:w-1/2">
@@ -16,6 +17,9 @@ const { title, image, url } = Astro.props;
     <Image src={image! ?? defaultBlogImage} alt="Album" width="150" height="150" />
   </figure>
   <div class="card-body">
+    <div class="join">
+      {tags?.map((tag) => <div class="badge badge-ghost mx-1">{tag}</div>)}
+    </div>
     <a href={url}>
       <h2 class="card-title">{title}</h2>
     </a>

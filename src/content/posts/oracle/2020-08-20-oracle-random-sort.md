@@ -1,8 +1,7 @@
 ---
 title: '[Oracle] 데이터 무작위 정렬하기'
-categories:
-  - Oracle
-tag:
+category: Oracle
+tags:
   - Sort
   - DBMS_RANDOM.RANDOM
 ---

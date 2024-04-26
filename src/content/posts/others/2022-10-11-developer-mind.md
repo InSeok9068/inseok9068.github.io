@@ -1,7 +1,6 @@
 ---
 title: '프로그래밍에 도움되는 글귀'
-categories:
-  - Others
+category: Others
 tags:
   - SourceTree
   - git

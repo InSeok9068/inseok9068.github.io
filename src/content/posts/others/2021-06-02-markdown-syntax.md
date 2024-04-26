@@ -1,10 +1,8 @@
 ---
 title: '[Markdown] Markdown 문법 총 정리'
-categories:
-  - Others
+category: Others
 tags:
   - Markdown
-toc: true
 ---
 
 오늘은 마크다운 문법에 대해서 정리해보자고 한다.
@@ -116,7 +114,7 @@ int number = 100;
 _기울임_
 ~~취소선~~
 <u>밑줄</u>
-윗첨자<sup>윗첨자<sup>  
+윗첨자<sup>윗첨자<sup>
 아랫첨자<sub>아랫첨자<sub>
 ```
 

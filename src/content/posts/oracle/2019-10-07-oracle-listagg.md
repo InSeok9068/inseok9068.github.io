@@ -1,7 +1,6 @@
 ---
 title: '[Oracle] 그룹으로 문자열 이어쓰기 (LISTAGG 함수)'
-categories:
-  - Oracle
+category: Oracle
 ---
 
 ```sql

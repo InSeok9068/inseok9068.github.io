@@ -1,7 +1,6 @@
 ---
 title: '[MyBatis] 조건문 비교 숫자형 비교연산자'
-categories:
-  - Others
+category: Others
 tags:
   - MyBatis
 ---

@@ -1,7 +1,6 @@
 ---
 title: '[Node] Exprees 서버 Google 소셜 로그인'
-categories:
-  - Node
+category: Node
 tags:
   - express
   - google

@@ -1,7 +1,6 @@
 ---
 title: '[SourceTree] 단축키'
-categories:
-  - Others
+category: Others
 tags:
   - SourceTree
   - git

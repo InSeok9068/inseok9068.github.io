@@ -1,8 +1,7 @@
 ---
 title: '[Oracle] 날짜 Dummy 데이터 만들기'
-categories:
-  - Oracle
-tag:
+category: Oracle
+tags:
   - date
 ---
 

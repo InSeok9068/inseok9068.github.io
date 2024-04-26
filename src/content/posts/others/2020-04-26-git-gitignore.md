@@ -1,7 +1,6 @@
 ---
 title: '[Git] .gitignore 간편하게 설정하기'
-categories:
-  - Others
+category: Others
 tags:
   - git
   - gitignore

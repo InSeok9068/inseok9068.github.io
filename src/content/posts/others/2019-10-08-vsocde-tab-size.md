@@ -1,7 +1,6 @@
 ---
 title: '[VSCODE] Tab 사이즈 변경'
-categories:
-  - Others
+category: Others
 tags:
   - vscode
 ---

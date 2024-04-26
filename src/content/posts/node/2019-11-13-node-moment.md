@@ -1,8 +1,7 @@
 ---
 title: '[Node] Moment 패키지로 날짜 이용하기'
-categories:
-  - Node
-tag:
+category: Node
+tags:
   - moment
 ---
 

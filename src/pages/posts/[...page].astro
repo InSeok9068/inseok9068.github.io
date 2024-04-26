@@ -19,7 +19,7 @@ const currentPage = page.currentPage ?? 1;
 <Layout>
   <div class="flex flex-col items-center gap-10">
     <p class="font-mono text-3xl">Blog List</p>
-    {page.data.map((post) => <BlogList title={post.data.title} url={`/posts/${post.slug}/`} />)}
+    {page.data.map((post) => <BlogList title={post.data.title} url={`/posts/${post.slug}/`} tags={post.data.tags} />)}
     <Pagination currentPage={currentPage} preUrl={page.url.prev} nextUrl={page.url.next} />
   </div>
 </Layout>

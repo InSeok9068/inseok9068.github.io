@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] @Deprecated 어노테이션으로 해당 클래스 및 메서드 은퇴시키기'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - Deprecated
 ---

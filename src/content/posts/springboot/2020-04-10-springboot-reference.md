@@ -1,10 +1,8 @@
 ---
 title: '[SpringBoot] 래퍼런스 한글 문서'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - reference
-toc: true
 ---
 
 > > [출처](https://github.com/ihoneymon/translate-spring-boot-reference) 해당 페이지를 참고하였습니다.

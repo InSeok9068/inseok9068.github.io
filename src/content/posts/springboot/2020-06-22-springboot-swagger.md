@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] Swagger2로 Rest API 문서화 및 테스트 하기'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - Swagger2
   - RestAPI

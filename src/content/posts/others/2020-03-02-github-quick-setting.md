@@ -1,7 +1,6 @@
 ---
 title: '[Git] GitHub 저장소와 로컬 프로젝트 연결'
-categories:
-  - Others
+category: Others
 tags:
   - git
 ---

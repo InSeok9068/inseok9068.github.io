@@ -4,19 +4,15 @@ const metadataDefinition = () =>
   z
     .object({
       title: z.string().optional(),
+      description: z.string().optional(),
       ignoreTitleTemplate: z.boolean().optional(),
-
       canonical: z.string().url().optional(),
-
       robots: z
         .object({
           index: z.boolean().optional(),
           follow: z.boolean().optional(),
         })
         .optional(),
-
-      description: z.string().optional(),
-
       openGraph: z
         .object({
           url: z.string().optional(),
@@ -34,7 +30,6 @@ const metadataDefinition = () =>
           type: z.string().optional(),
         })
         .optional(),
-
       twitter: z
         .object({
           handle: z.string().optional(),
@@ -49,10 +44,9 @@ const postsCollection = defineCollection({
   schema: z.object({
     publishDate: z.date().optional(),
     updateDate: z.date().optional(),
-    draft: z.boolean().optional(),
+    draft: z.boolean().optional().default(true),
 
     title: z.string(),
-    excerpt: z.string().optional(),
     image: z.string().optional(),
 
     category: z.string().optional(),

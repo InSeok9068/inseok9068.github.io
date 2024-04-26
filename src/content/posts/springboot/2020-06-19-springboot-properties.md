@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] properties값 클래스로 매핑하기'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - Properties
   - ConfigurationProperties

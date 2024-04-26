@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] @RequestParam, @PathVariable 차이점'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - RequestParam
   - PathVariable

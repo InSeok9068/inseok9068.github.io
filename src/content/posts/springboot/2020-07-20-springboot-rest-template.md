@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] RestTemplate 이용하여 API 통신하기'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - RestTemplate
 ---

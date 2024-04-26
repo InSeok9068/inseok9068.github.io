@@ -1,8 +1,6 @@
 ---
 title: '[Oracle] DEFINE으로 쿼리 실행 시 변수 선언하기'
-categories:
-  - Oracle
-  - DEFINE
+category: Oracle
 ---
 
 오늘은 오라클에서 쿼리 실행 시 특정 값을 변수로 선언하여 사용하는 법을 알아보려 한다.

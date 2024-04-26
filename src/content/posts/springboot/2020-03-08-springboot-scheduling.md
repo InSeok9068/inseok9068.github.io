@@ -1,10 +1,9 @@
 ---
 title: '[SpringBoot] @Scheduled 사용으로 스케줄러 구현'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - Scheduled
-published: false
+draft: false
 ---
 
 Spring Boot를 통해서 간단하게 스케줄러를 구현해보려고 한다.

@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] EhCache 사용하여 DB 과부화 줄이기'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - EhCache
 ---

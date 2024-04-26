@@ -1,7 +1,6 @@
 ---
 title: '[Oracle] 1,2와 같이 MultiValue값 조회시 조건 설정법'
-categories:
-  - Oracle
+category: Oracle
 ---
 
 ### 익명 테이블

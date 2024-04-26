@@ -1,7 +1,6 @@
 ---
 title: '[Window] Window 10 가상 데스크탑 단축키'
-categories:
-  - Window
+category: Window
 ---
 
 최근에 유튜브를 보다가 유용한 단축키를 하나 알아서 공유 하고자 한다.<br>

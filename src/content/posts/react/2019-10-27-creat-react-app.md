@@ -1,7 +1,6 @@
 ---
 title: '[React] React 프로젝트 create-react-app로 시작하기'
-categories:
-  - React
+category: React
 tags:
   - create-react-app
 ---

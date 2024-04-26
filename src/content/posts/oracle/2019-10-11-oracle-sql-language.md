@@ -1,8 +1,7 @@
 ---
 title: '[Oracle] 데이터베이스 DDL, DML, DCL 명령어와 차이점'
-categories:
-  - Oracle
-tag:
+category: Oracle
+tags:
   - DDL
   - DML
   - DCL

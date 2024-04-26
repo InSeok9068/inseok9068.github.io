@@ -1,10 +1,9 @@
 ---
 title: '정규표현식의 패턴'
-categories:
-  - Others
+category: Others
 tags:
   - regexp
-published: false
+draft: false
 ---
 
 ## 정규 표현식이란

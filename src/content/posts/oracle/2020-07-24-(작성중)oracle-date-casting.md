@@ -1,10 +1,9 @@
 ---
 title: '[Oracle] Date 타입 문자열과 비교 시 고려 사항'
-categories:
-  - Oracle
-tag:
+category: Oracle
+tags:
   - Date
-published: false
+draft: false
 ---
 
 오늘 포스팅을 알아보기 전 한 가지 전제 조건으로 오라클의 기본 Date 포맷은 'YY/MM/DD'로 생각하고 포스팅을 진행할 예정이다.

@@ -1,7 +1,6 @@
 ---
 title: '동기(synchronous)통신과 비동기통신(Asynchronous)의 차이점'
-categories:
-  - Others
+category: Others
 tags:
   - synchronous
   - Asynchronous

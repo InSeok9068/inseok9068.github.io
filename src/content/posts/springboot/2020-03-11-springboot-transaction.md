@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] @Transactional 트랜잭션 사용하기'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - Transactional
 ---

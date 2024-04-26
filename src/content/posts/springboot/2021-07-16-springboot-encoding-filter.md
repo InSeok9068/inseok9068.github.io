@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] 특정 URL만 다른 Encoding 방식 설정하기'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - Filter
   - Encoding

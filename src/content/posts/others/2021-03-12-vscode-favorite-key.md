@@ -1,7 +1,6 @@
 ---
 title: '[VSCODE] 텍스트 편집 유용한 단축키'
-categories:
-  - Others
+category: Others
 tags:
   - vscode
 ---

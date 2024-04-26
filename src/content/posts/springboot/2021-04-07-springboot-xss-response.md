@@ -1,7 +1,6 @@
 ---
 title: '[SpringBoot] XSS Filter Reponse에서 처리하기'
-categories:
-  - SpringBoot
+category: SpringBoot
 tags:
   - XSS
 ---
