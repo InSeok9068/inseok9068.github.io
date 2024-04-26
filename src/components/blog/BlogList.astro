@@ -12,13 +12,13 @@ interface Props {
 const { title, url, image, tags } = Astro.props;
 ---
 
-<div class="card w-full bg-base-100 shadow-xl lg:card-side sm:w-1/2">
+<div class="card w-full bg-base-100 shadow-xl lg:card-side sm:w-2/3">
   <figure>
     <Image src={image! ?? defaultBlogImage} alt="Album" width="150" height="150" />
   </figure>
   <div class="card-body">
     <div class="join">
-      {tags?.map((tag) => <div class="badge badge-ghost mx-1">{tag}</div>)}
+      {tags?.map((tag) => <span class="badge badge-ghost mx-1 text-xs">{tag}</span>)}
     </div>
     <a href={url}>
       <h2 class="card-title">{title}</h2>
