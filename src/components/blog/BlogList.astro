@@ -1,5 +1,4 @@
 ---
-import defaultBlogImage from '@/pages/images/default_blog_image.jpg';
 import { Image } from 'astro:assets';
 
 interface Props {
@@ -13,9 +12,13 @@ const { title, url, image, tags } = Astro.props;
 ---
 
 <div class="card w-full bg-base-100 shadow-xl lg:card-side sm:w-2/3">
-  <figure>
-    <Image src={image! ?? defaultBlogImage} alt="Album" width="150" height="150" />
-  </figure>
+  {
+    image && (
+      <figure>
+        <Image src={image} alt="Album" width="150" height="150" />
+      </figure>
+    )
+  }
   <div class="card-body">
     <div class="join">
       {tags?.map((tag) => <span class="badge badge-ghost mx-1 text-xs">{tag}</span>)}
