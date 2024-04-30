@@ -1,12 +1,34 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { sampleSize } from 'lodash-es';
 
 const { frontmatter } = Astro.props;
+const blogEntries = await getCollection('posts');
+const randomBlogEntries = sampleSize(blogEntries, 2);
 ---
 
 <Layout title={frontmatter.title}>
   <div class="prose mx-auto max-w-5xl">
     <h1>{frontmatter.title}</h1>
     <slot />
+    <div class="divider mt-20"></div>
+    <h3>다른 글 읽어보기 ⬇️</h3>
+    {
+      randomBlogEntries.map((blogEntrie) => (
+        <div class="card shadow-xl">
+          <div class="card-body">
+            <div class="join">
+              {blogEntrie.data.tags?.map((tag) => (
+                <span class="badge badge-ghost mx-1 text-xs">{tag}</span>
+              ))}
+            </div>
+            <a href={`/posts/${blogEntrie.slug}`}>
+              <h4 class="card-title mt-0 text-lg">{blogEntrie.data.title}</h4>
+            </a>
+          </div>
+        </div>
+      ))
+    }
   </div>
 </Layout>
