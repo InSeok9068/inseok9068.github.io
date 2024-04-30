@@ -21,7 +21,7 @@
     "clsx": "^2.1.1",
     "daisyui": "^4.10.2",
     "lucide-vue-next": "^0.373.0",
-    "radix-vue": "^1.7.2",
+    "radix-vue": "^1.7.3",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "vue": "^3.4.25"
