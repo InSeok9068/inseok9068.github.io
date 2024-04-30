@@ -3,7 +3,7 @@ import Layout from '@/layouts/Layout.astro';
 ---
 
 <Layout>
-  <div>
+  <div id="portfolio" class="hidden">
     <h1 class="text-xl font-bold sm:text-2xl">작성 중</h1>
     <ul class="steps steps-vertical">
       <li class="step step-primary"></li>
@@ -12,4 +12,34 @@ import Layout from '@/layouts/Layout.astro';
       <li class="step"></li>
     </ul>
   </div>
+
+  <dialog id="modal" class="modal">
+    <div class="modal-box">
+      <div class="label">
+        <span class="label-text text-lg">패스워드</span>
+      </div>
+      <input type="password" id="password" class="input input-bordered w-full" />
+      <div class="modal-action">
+        <form method="dialog">
+          <button class="btn" id="btnConfirm">확인</button>
+          <button class="btn" id="btnCancel">취소</button>
+        </form>
+      </div>
+    </div>
+  </dialog>
+
+  <script>
+    const portfolio = document.getElementById('portfolio');
+    const modal = document.getElementById('modal') as HTMLDialogElement;
+    const btnConfirm = document.getElementById('btnConfirm') as HTMLButtonElement;
+    const password = document.getElementById('password') as HTMLInputElement;
+
+    modal.showModal();
+
+    btnConfirm.addEventListener('click', () => {
+      if (password.value === '1234') {
+        portfolio!.className = '';
+      }
+    });
+  </script>
 </Layout>
