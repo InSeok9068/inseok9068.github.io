@@ -13,6 +13,14 @@ const randomBlogEntries = sampleSize(blogEntries, 2);
     <h1>{frontmatter.title}</h1>
     <slot />
     <div class="divider mt-20"></div>
+    <script
+      is:inline
+      async
+      src="https://utteranc.es/client.js"
+      repo="InSeok9068/inseok9068.github.io"
+      issue-term="pathname"
+      theme="github-light"
+      crossorigin="anonymous"></script>
     <h3>다른 글 읽어보기 ⬇️</h3>
     {
       randomBlogEntries.map((blogEntrie) => (
