@@ -21,7 +21,7 @@
     "clsx": "^2.1.1",
     "daisyui": "^4.10.2",
     "lodash-es": "^4.17.21",
-    "lucide-vue-next": "^0.394.0",
+    "lucide-vue-next": "^0.411.0",
     "radix-vue": "^1.7.3",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
@@ -29,7 +29,7 @@
     "vue": "^3.4.25"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.7.0",
+    "@astrojs/check": "^0.8.2",
     "@astrojs/tailwind": "^5.1.0",
     "@eslint/js": "^9.1.1",
     "@tailwindcss/typography": "^0.5.12",
