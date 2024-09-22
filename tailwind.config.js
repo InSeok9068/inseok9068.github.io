@@ -30,6 +30,7 @@ export default {
       },
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require('@tailwindcss/typography'), require('daisyui'), animate],
   daisyui: {
     themes: ['light', 'dark', 'cupcake'],
